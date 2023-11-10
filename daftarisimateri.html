@@ -69,8 +69,29 @@
         <div class="row">
           <div class="col">
             <div class="list-group">
-              <button type="button" class="list-group-item list-group-item-action active text-center" aria-current="true">List Materi</button>
-             <a href="https://docs.google.com/spreadsheets/d/1xvKciRi2ktoHAs_L9g1jZN8ItpTc_g3s_imfl3X7wLU/edit?usp=sharing" target="_blank" style="text-decoration: solid;" > <button type="button" class="list-group-item list-group-item-action" style="background-color: rgb(26, 255, 0);"> <strong>00. CEK NAMA PENGUMPULAN TUGAS</strong>  </button> </a>
+
+             <!-- start cek nama -->
+              <button type="button" class="list-group-item list-group-item-action fw-bold" data-bs-toggle="offcanvas" data-bs-target="#offcanvascekNama" aria-controls="offcanvas" style="background-color: rgb(255, 225, 0);"><strong>00. CEK NAMA PENGUMPULAN TUGAS</strong></button>
+              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvascekNama" aria-labelledby="offcanvascekNama">
+                <div class="offcanvas-header">
+                  <h5 id="offcanvascekNama">mathdosman.com</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <h1 class="text-success"> 
+                    Pilih Tugas yang akan dilihat 
+                  </h1>
+                <ol class="list-group list-group-numbered">
+                  <a href="https://docs.google.com/spreadsheets/d/1xvKciRi2ktoHAs_L9g1jZN8ItpTc_g3s_imfl3X7wLU/edit#gid=0" target="_blank" class="list-group-item list-group-action">Eksponen</a>
+                  <a href="https://docs.google.com/spreadsheets/d/1xvKciRi2ktoHAs_L9g1jZN8ItpTc_g3s_imfl3X7wLU/edit#gid=966312764" target="_blank" class="list-group-item list-group-action">Logaritma</a>
+                  <a href="https://docs.google.com/spreadsheets/d/1xvKciRi2ktoHAs_L9g1jZN8ItpTc_g3s_imfl3X7wLU/edit#gid=1021957925" target="_blank" class="list-group-item list-group-action">Barisan dan Deret</a>
+                </ol>
+                </div>
+              </div>
+<!-- ============================================================================================================================= -->
+
+
+
               <button type="button" class="list-group-item list-group-item-action">01. Logika Matematika</button>
               <button type="button" class="list-group-item list-group-item-action">02. Induksi Matematika</button>
               <button type="button" class="list-group-item list-group-item-action">03. Pertidaksamaan Linear</button>
